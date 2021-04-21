@@ -21,6 +21,8 @@ public class LoginSteps extends WebBrowserFactory {
 
         driver.manage().window().maximize();
         driver.get("https://www.dudfara.com/");
+        //driver.get("http://ec2-35-178-11-168.eu-west-2.compute.amazonaws.com:8080/Test/");
+        //driver.get("http://ec2-35-177-144-155.eu-west-2.compute.amazonaws.com:8080/javawebapp_01/");
     }
 
     @When("user click on home page")
