@@ -17,11 +17,12 @@ public class LoginSteps extends WebBrowserFactory {
     
 
     @Given("user is log in page")
-    public void user_is_log_in_page() {
-
+    public void user_is_log_in_page() throws InterruptedException {
+        Thread.sleep(5000);
         driver.manage().window().maximize();
-       // driver.get("https://www.dudfara.com/");
-        driver.get("http://35.177.63.228:8080/Test/");
+        driver.get("https://www.dudfara.com/");
+        Thread.sleep(5000);
+        //driver.get("http://35.177.63.228:8080/Test/");
         //driver.get("http://ec2-35-177-144-155.eu-west-2.compute.amazonaws.com:8080/javawebapp_01/");
     }
 
