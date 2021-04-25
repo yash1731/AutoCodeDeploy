@@ -11,8 +11,8 @@ monochrome = true,
         //plugin = {"pretty", "html:target/htmlReports"},
         plugin = {"pretty",
                 "html:target/cucumber-html-report",
-                "json:target/cucumber.json",
-                "json:C:/Users/Yash/AutoCodeDeploy/target/cucumber.json",
+                "json:target/cucumber-report/cucumber.json",
+
         },
         tags = "@all"
       )
