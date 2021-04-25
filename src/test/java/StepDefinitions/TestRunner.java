@@ -9,6 +9,11 @@ import org.junit.runner.RunWith;
 @CucumberOptions(features = "src/main/resources/Features", glue = {"StepDefinitions"},
 monochrome = true,
         //plugin = {"pretty", "html:target/htmlReports"},
+        plugin = {"pretty",
+                "html:target/cucumber-html-report",
+                "json:target/cucumber.json",
+                "json:C:/Users/Yash/AutoCodeDeploy/target/cucumber.json",
+        },
         tags = "@all"
       )
 public class TestRunner {
