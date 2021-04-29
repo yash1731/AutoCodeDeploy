@@ -49,6 +49,7 @@ public class WebBrowserFactory {
 //        options.addArguments("--fast-start");
 
 
+        options.setBinary("'/usr/bin/google-chrome'");
 
         options.addArguments("--headless");
         options.addArguments("window-size=1400,1500");
