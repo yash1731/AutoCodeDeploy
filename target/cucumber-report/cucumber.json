@@ -3,7 +3,7 @@
     "line": 6,
     "elements": [
       {
-        "start_timestamp": "2021-04-25T20:30:07.971Z",
+        "start_timestamp": "2021-04-29T16:22:57.646Z",
         "line": 7,
         "name": "check login in successful with valid credentials",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 13692000000,
+              "duration": 13450000000,
               "status": "passed"
             },
             "line": 9,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 3139000000,
+              "duration": 3128000000,
               "status": "passed"
             },
             "line": 10,
@@ -37,7 +37,7 @@
           },
           {
             "result": {
-              "duration": 3176000000,
+              "duration": 3152000000,
               "status": "passed"
             },
             "line": 11,
@@ -49,7 +49,7 @@
           },
           {
             "result": {
-              "duration": 4023000000,
+              "duration": 3781000000,
               "status": "passed"
             },
             "line": 12,

@@ -12,13 +12,17 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 
 public class LoginSteps extends WebBrowserFactory {
-   
+
+
      WebDriver driver = getChromeDriver();
-    
+
+
 
     @Given("user is log in page")
     public void user_is_log_in_page() throws InterruptedException {
         Thread.sleep(5000);
+
+
         driver.manage().window().maximize();
         driver.get("https://www.dudfara.com/");
         Thread.sleep(5000);
